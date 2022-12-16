@@ -9,6 +9,7 @@ The codes and examples in this Repo are from Random Tutorials coupled with my Li
 - Text Editors: Visual Studio Code, Vi, Vim and Emacs
 - VCS: Git
 - Bash
+- Node js
 
 ## The Concept of React
 
@@ -19,6 +20,16 @@ The codes and examples in this Repo are from Random Tutorials coupled with my Li
 - Created and Maintained by Facebook
 - Huge Community
 - Most In-demanding front end Library
+
+## Two Approaches or Methods to create React App
+- npx ---- npx is an npm packager runner that automatically install when we install node.js
+npx create-creact-app <project_name>
+- npm ---- npm installs react app globally and then use the package to generate the project.
+npm install create-react-app -g, ones this is done, run
+creat-react-app<project_name>
+
+# Create React App
+Create react app is a command line interface tool that allows you to create a react app without configuration
 
 ## Major Topics and Keywords Covered
 
