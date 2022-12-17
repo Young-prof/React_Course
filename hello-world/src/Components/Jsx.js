@@ -1,6 +1,6 @@
 import React from "react";
 
-const Hello = () => {
+const Jsx = () => {
     // return(
     //     // an example of JXS
     //     <div>
@@ -16,6 +16,6 @@ const Hello = () => {
     {id: "Franklyn", className: "it's nothing"},
     React.createElement('h1', null, "I'm a Software Engineer"))
 }
-export default Hello
+export default Jsx 
 
 // JSX is used in this practice because it's syntax is very simple to use.

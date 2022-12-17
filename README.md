@@ -64,6 +64,7 @@ Create react app is a command line interface tool that allows you to create a re
 - Components
 - JSX
 - Props
+- state
 
 ## Foler Structures
 - Package.json: The package.json file contains the dependencies and the scripts required for the project. It contains stuffs like the name of the app, version, Script and etc.
@@ -76,6 +77,7 @@ The favicon.ico is just a react logo.
 The Index.html is the only html file you'll have in your entire react project. Much changes will not be made in the index.html file because react does almost everything for you.
 
 ### src: The src folder is what you'll be working with the most when using react. it contains 
+| The source Folder |  |
 | --- | --- |
 | App.css | App.css contains some sort of styling for the app  |
 | App.js | App.js is more like the most important file within the entire project in the sense that it is what is displayed in the the brower. |
@@ -133,3 +135,14 @@ $	return <h1>Hello {props.name}</h1>
 $ export default Morning
 ```
 One thing to always remember is that prop is just an object that contains the attributes and the values which have been passed from the parent components.
+
+## State
+The state is a built-in React object that is used to contain data or information about the component. A component's state can change over time; whenever it changes, the component re-renders
+### Differences 
+| Props | state |
+| --- | ---|O[O
+| props get passed to the component | state is managed within the component |
+| Funtion parameters | Variables declared in the function body state can be changed |
+| props are immutable | state can be changed |
+| props - Functionanl Components | useState Hook - Funtional components |
+| this.props - class components | this.state - class components |
