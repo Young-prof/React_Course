@@ -75,6 +75,7 @@ The manifest.json is concerned with progressive web apps.
 The favicon.ico is just a react logo.
 The Index.html is the only html file you'll have in your entire react project. Much changes will not be made in the index.html file because react does almost everything for you.
 - src: The src folder is what you'll be working with the most when using react. it contains 
+| --- | --- |
 | App.css | App.css contains some sort of styling for the app  |
 | App.js | App.js is more like the most important file within the entire project in the sense that it is what is displayed in the the brower. |
 | App.test.js | This file contains a simple test case |
