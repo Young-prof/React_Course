@@ -87,10 +87,10 @@ The Index.html is the only html file you'll have in your entire react project. M
 ## Components
 - Components describe a part of the user interface
 - Components are re-usable and can be nested inside other components
-| Types of Components |
-| Funtional components | Funtional componenst are simply javascript functions. Funtional components can receive objects or inputs of properties that are refered to as props and return html which describes the UI. The html which is been returned is what is called jsx.
+| Types of Components | |
+| Funtional components | Funtional componenst are simply javascript functions. Funtional components can receive objects or inputs of properties that are refered to as props and return html which describes the UI. The html which is been returned is what is called jsx. |
 | Class components | Class components are ES6 classes. Just like functional components, a Class components can also receive inputs of properties and return html. It can also maintain a private internal state. |
-| 			Class VS Functional Components				|
+| Class VS Functional Components | |
 | Funtional Components | Class Components |
 | Simple functions | Maintain their own private data-state |
 | Absence of the 'this' keyword | Presence of the 'this' keyword |
@@ -104,10 +104,10 @@ The Index.html is the only html file you'll have in your entire react project. M
 - JSX tags have a tag name, attributes, and children.
 - JSX is not a necessity to write React apps. but it will make react codes simpler and elegant.
 - JSx ultimately transpiles to pure JavaScript which is understood by the browers.
-| JSX Differeces |
+| JSX Differeces | |
 | Class | className |
 | for | htmlFor |
-| camelCase property naming convention |
+| camelCase property naming convention |  |
 | onclick | onClick |
 | tabindex | tabIndex |
 
