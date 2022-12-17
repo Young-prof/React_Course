@@ -58,12 +58,14 @@ Create react app is a command line interface tool that allows you to create a re
 - Routing
 - React Redux
 - Other Utilities
-### Topics Covered
+
+# Topics Covered
 - Folder Structure
 - Components
 - JSX
+- Props
 
-# Foler Structures
+## Foler Structures
 - Package.json: The package.json file contains the dependencies and the scripts required for the project. It contains stuffs like the name of the app, version, Script and etc.
 - Package.lock.json: This files simply ensures consistent installation of Dependencies.
 - Readme file: README file is a guide that gives users a detailed description of the project.
@@ -81,7 +83,7 @@ The Index.html is the only html file you'll have in your entire react project. M
 | logo.svg | |
 | serviceWorker.js | This is concerned with some progressive web apps|
 
-# Components
+## Components
 - Components describe a part of the user interface
 - Components are re-usable and can be nested inside other components
 | Types of Components |
@@ -95,9 +97,32 @@ The Index.html is the only html file you'll have in your entire react project. M
 | solutions without using state | Provide lifecircle hooks |
 | Begginner friendly | Advanced concepts |
 
-# JSX
+## JSX
 - JavaScript XML (JSX)- Extension to the JavaScirpt language syntax
 - It helps to write XML - Like code for elements and components.
 - JSX tags have a tag name, attributes, and children.
 - JSX is not a necessity to write React apps. but it will make react codes simpler and elegant.
 - JSx ultimately transpiles to pure JavaScript which is understood by the browers.
+| JSX Differeces |
+| Class | className |
+| for | htmlFor |
+| camelCase property naming convention |
+| onclick | onClick |
+| tabindex | tabIndex |
+
+## Props
+Props are for properties that your components can accepts. Props is an important keyword in react in the sense that, lets say you have a component named Morning, and you want to reuse Morning in different parts of the application. So if you duplicate the name of the component alone it will make no sense at all. So props comes in handy here. insert the name of the component, then, add the name attribute, then inpute whatever you want to add. example, in your app.js file 
+`<Morning name = "Mark" />`
+`<Morning name = "Franklyn" />`
+`<Morning name = "Tekena" />`
+
+In your Morning.js file
+`
+import React from 'react'
+
+const Morning = props => {
+	console.log(props)
+	return <h1>Hello {props.name}</h1>
+`
+`export default Morning`
+One thing to always remember is that prop is just an object that contains the attributes and the values which have been passed from the parent components.
