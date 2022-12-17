@@ -1,5 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
+import {Greating} from './Components/Greating';
+// import Greating from './Components/Greating';
+import Welcome from './Components/Welcome';
+import Hello from './Components/Hello';
 
 function App() {
   return (
@@ -18,7 +22,10 @@ function App() {
           Learn React
         </a>
       </header> */}
-      
+
+      {/* <Greating />
+      <Welcome /> */}
+      <Hello />
     </div>
   );
 }
