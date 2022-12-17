@@ -24,10 +24,10 @@ The codes and examples in this Repo are from Random Tutorials coupled with my Li
 
 ## Two Approaches or Methods to create React App
 - npx ---- npx is an npm packager runner that automatically install when we install node.js
-npx create-creact-app <project_name>
+`$ npx create-creact-app <project_name>`
 - npm ---- npm installs react app globally and then use the package to generate the project.
 npm install create-react-app -g, ones this is done, run
-creat-react-app<project_name>
+`$ creat-react-app<project_name>`
 
 # Create React App
 Create react app is a command line interface tool that allows you to create a react app without configuration
@@ -119,12 +119,13 @@ $ <Morning name = "Tekena" />
 ```
 In your Morning.js file
 
+```
+$ import React from 'react'
 
-import React from 'react'
+$ const Morning = props => {
+$	console.log(props)
+$	return <h1>Hello {props.name}</h1>
 
-const Morning = props => {
-	console.log(props)
-	return <h1>Hello {props.name}</h1>
-`
-`export default Morning`
+$ export default Morning
+```
 One thing to always remember is that prop is just an object that contains the attributes and the values which have been passed from the parent components.
