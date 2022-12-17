@@ -112,12 +112,14 @@ The Index.html is the only html file you'll have in your entire react project. M
 
 ## Props
 Props are for properties that your components can accepts. Props is an important keyword in react in the sense that, lets say you have a component named Morning, and you want to reuse Morning in different parts of the application. So if you duplicate the name of the component alone it will make no sense at all. So props comes in handy here. insert the name of the component, then, add the name attribute, then inpute whatever you want to add. example, in your app.js file 
-`<Morning name = "Mark" />`
-`<Morning name = "Franklyn" />`
-`<Morning name = "Tekena" />`
-
+```
+$ <Morning name = "Mark" />
+$ <Morning name = "Franklyn" />
+$ <Morning name = "Tekena" />
+```
 In your Morning.js file
-`
+
+
 import React from 'react'
 
 const Morning = props => {
