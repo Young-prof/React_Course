@@ -74,7 +74,8 @@ Create react app is a command line interface tool that allows you to create a re
 The manifest.json is concerned with progressive web apps. 
 The favicon.ico is just a react logo.
 The Index.html is the only html file you'll have in your entire react project. Much changes will not be made in the index.html file because react does almost everything for you.
-- src: The src folder is what you'll be working with the most when using react. it contains 
+
+### src: The src folder is what you'll be working with the most when using react. it contains 
 | --- | --- |
 | App.css | App.css contains some sort of styling for the app  |
 | App.js | App.js is more like the most important file within the entire project in the sense that it is what is displayed in the the brower. |
@@ -87,7 +88,8 @@ The Index.html is the only html file you'll have in your entire react project. M
 ## Components
 - Components describe a part of the user interface
 - Components are re-usable and can be nested inside other components
-| Types of Components | |
+
+###  Types of Components 
 | Funtional components | Funtional componenst are simply javascript functions. Funtional components can receive objects or inputs of properties that are refered to as props and return html which describes the UI. The html which is been returned is what is called jsx. |
 | Class components | Class components are ES6 classes. Just like functional components, a Class components can also receive inputs of properties and return html. It can also maintain a private internal state. |
 | Class VS Functional Components | |
@@ -104,7 +106,8 @@ The Index.html is the only html file you'll have in your entire react project. M
 - JSX tags have a tag name, attributes, and children.
 - JSX is not a necessity to write React apps. but it will make react codes simpler and elegant.
 - JSx ultimately transpiles to pure JavaScript which is understood by the browers.
-| JSX Differeces | |
+
+### JSX Differeces 
 | Class | className |
 | for | htmlFor |
 | camelCase property naming convention |  |
