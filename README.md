@@ -65,6 +65,7 @@ Create react app is a command line interface tool that allows you to create a re
 - JSX
 - Props
 - state
+- setState
 
 ## Foler Structures
 - Package.json: The package.json file contains the dependencies and the scripts required for the project. It contains stuffs like the name of the app, version, Script and etc.
@@ -91,11 +92,14 @@ The Index.html is the only html file you'll have in your entire react project. M
 - Components describe a part of the user interface
 - Components are re-usable and can be nested inside other components
 
-###  Types of Components 
+###  Types of Components
+| Components | Description |
+| --- | --- |
 | Funtional components | Funtional componenst are simply javascript functions. Funtional components can receive objects or inputs of properties that are refered to as props and return html which describes the UI. The html which is been returned is what is called jsx. |
 | Class components | Class components are ES6 classes. Just like functional components, a Class components can also receive inputs of properties and return html. It can also maintain a private internal state. |
-| Class VS Functional Components | |
+### Differences
 | Funtional Components | Class Components |
+| --- | --- |
 | Simple functions | Maintain their own private data-state |
 | Absence of the 'this' keyword | Presence of the 'this' keyword |
 | Mainly responsible for the UI | Complex UI logic |
@@ -109,11 +113,13 @@ The Index.html is the only html file you'll have in your entire react project. M
 - JSX is not a necessity to write React apps. but it will make react codes simpler and elegant.
 - JSx ultimately transpiles to pure JavaScript which is understood by the browers.
 
-### JSX Differeces 
+### XML Differeces With JSX
 | Class | className |
 | --- | --- |
 | for | htmlFor |
-| camelCase property naming convention |  |
+#### camelCase property naming convention
+| Normal | camelCase |
+| --- | --- |
 | onclick | onClick |
 | tabindex | tabIndex |
 
@@ -141,7 +147,7 @@ One thing to always remember is that prop is just an object that contains the at
 The state is a built-in React object that is used to contain data or information about the component. A component's state can change over time; whenever it changes, the component re-renders
 ### Differences 
 | Props | state |
-| --- | ---|O[O
+| --- | --- |
 | props get passed to the component | state is managed within the component |
 | Funtion parameters | Variables declared in the function body state can be changed |
 | props are immutable | state can be changed |
